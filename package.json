@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.5"
+  },
+  "overrides": {
+    "chalk": "^4.1.2"
   }
 }

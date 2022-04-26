@@ -13,7 +13,7 @@ import { error404, errorDev } from '@nuxt/design';
 import { createRenderer } from 'vue-bundle-renderer';
 import devalue from '@nuxt/devalue';
 import defu from 'defu';
-import htmlTemplate from '/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/views/document.template.mjs';
+import htmlTemplate from 'file:///A:/Learn/hireme-nuxt/.nuxt/views/document.template.mjs';
 import { renderToString as renderToString$2 } from 'vue/server-renderer';
 
 const _runtimeConfig = {public:{app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:null}},private:{}};
@@ -130,10 +130,10 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/Users/vega/dev/nuxt/hello-tailwind-3/dist" + "/" + "1640804012";
+const STATIC_ASSETS_BASE = "A:/Learn/hireme-nuxt/dist" + "/" + "1650352715";
 const PAYLOAD_JS = "/payload.js";
-const getClientManifest = cachedImport(() => import('/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/dist/server/client.manifest.mjs'));
-const getSSRApp = cachedImport(() => import('/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/dist/server/server.mjs'));
+const getClientManifest = cachedImport(() => import('file:///A:/Learn/hireme-nuxt/.nuxt/dist/server/client.manifest.mjs'));
+const getSSRApp = cachedImport(() => import('file:///A:/Learn/hireme-nuxt/.nuxt/dist/server/server.mjs'));
 const publicPath = publicConfig.app && publicConfig.app.assetsPath || "/_nuxt/" || "/_nuxt";
 const getSSRRenderer = cachedResult(async () => {
   const clientManifest = await getClientManifest();

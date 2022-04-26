@@ -1,12 +1,12 @@
 
 // --------------------
-// Request: /Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry
+// Request: A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // --------------------
-const $id_1cacbff3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_de435d9d = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const entry = true ? (ctx) => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default(ctx)) : () => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default);
 if (false) {
   entry();
@@ -19,27 +19,27 @@ __vite_ssr_exports__.default = entry;
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/bootstrap.mjs
 // Parents: 
-// - /Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry ($id_1cacbff3)
+// - A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/app/entry ($id_de435d9d)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs ($id_e56fd3d4)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs ($id_c59bdb44)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs ($id_3ee0f2b0)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/css.mjs ($id_a01276db)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/root-component.mjs ($id_55e1027a)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/app-component.mjs ($id_608d1dce)
 // --------------------
 const $id_fef466a9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/css.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/app-component.mjs");
 
 let entry;
 const plugins = __vite_ssr_import_1__.normalizePlugins(__vite_ssr_import_3__.default);
@@ -99,7 +99,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs ($id_15c066b2)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/layouts.mjs ($id_a6dba7fb)
 // - /node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js ($id_8e47f017)
 // - /node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js ($id_58abcb04)
 // - /node_modules/@heroicons/vue/outline/esm/AnnotationIcon.js ($id_d6e47bca)
@@ -331,14 +331,31 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@heroicons/vue/outline/esm/ZoomInIcon.js ($id_d44846b1)
 // - /node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js ($id_59b10e81)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// - /components/SideNavigationText.vue ($id_951f5202)
+// - /composables/useCompany.ts ($id_da124a57)
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/SearchWithMap.vue ($id_d2a53480)
+// - /components/Chip.vue ($id_62c084f5)
+// - /components/CircledDropdown.vue ($id_bef41eb3)
+// - /components/SpinnerLoading.vue ($id_16a65e4c)
+// - /components/Loading.vue ($id_cf8c0d44)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /components/Divider.vue ($id_7bcb4c2d)
+// - /components/OtherPositionCard.vue ($id_80d96d5e)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /components/Button.vue ($id_97e817bf)
+// - /components/QualificationDescription.vue ($id_8d25d416)
+// - /components/NotSelectedCompanyDetailState.vue ($id_f01a83ef)
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
 // - /pages/index.vue ($id_cca58e97)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs ($id_f92d0614)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/dist/vue.cjs.js".') })
+const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/vue/dist/vue.cjs.js".') })
 
 
 // --------------------
@@ -356,6 +373,8 @@ const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// - /composables/useCompany.ts ($id_da124a57)
+// - /components/Content.vue ($id_fc90cf47)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/nuxt.mjs ($id_bf77ef36)
@@ -523,7 +542,7 @@ function defineGetter(obj, key, val) {
 // Dependencies: 
 
 // --------------------
-const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/hookable/dist/index.mjs".') })
+const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/hookable/dist/index.mjs".') })
 
 
 // --------------------
@@ -648,7 +667,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 // Dependencies: 
 
 // --------------------
-const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/unenv/runtime/mock/proxy.mjs".') })
+const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/unenv/runtime/mock/proxy.mjs".') })
 
 
 // --------------------
@@ -760,7 +779,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Dependencies: 
 
 // --------------------
-const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue-router/dist/vue-router.cjs.js".') })
+const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/vue-router/dist/vue-router.cjs.js".') })
 
 
 // --------------------
@@ -973,7 +992,7 @@ function generateKey(keys) {
 // Dependencies: 
 
 // --------------------
-const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/murmurhash-es/dist/index.mjs".') })
+const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/murmurhash-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1062,7 +1081,7 @@ function writeServerCookie(res, name, value, opts = {}) {
 // Dependencies: 
 
 // --------------------
-const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/cookie-es/dist/index.mjs".') })
+const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/cookie-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1072,7 +1091,7 @@ const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/h3/dist/index.mjs".') })
+const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/h3/dist/index.mjs".') })
 
 
 // --------------------
@@ -1082,7 +1101,7 @@ const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/destr/dist/index.mjs".') })
+const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/destr/dist/index.mjs".') })
 
 
 // --------------------
@@ -1111,13 +1130,13 @@ Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: t
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/css.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_e56fd3d4 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a01276db = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1126,17 +1145,17 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs ($id_e56fd3d4)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/css.mjs ($id_a01276db)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.mt-10 {\n  margin-top: 2.5rem;\n}\n.ml-16 {\n  margin-left: 4rem;\n}\n.flex {\n  display: flex;\n}\n.hidden {\n  display: none;\n}\n.h-12 {\n  height: 3rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.w-12 {\n  width: 3rem;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.max-w-7xl {\n  max-width: 80rem;\n}\n.max-w-2xl {\n  max-width: 42rem;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n.p-8 {\n  padding: 2rem;\n}\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-extrabold {\n  font-weight: 800;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-bold {\n  font-weight: 700;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-8 {\n  line-height: 2rem;\n}\n.leading-6 {\n  line-height: 1.5rem;\n}\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n@media (min-width: 640px) {\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n}\n@media (min-width: 1024px) {\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\n";
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\r\n*, ::before, ::after {\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n}\r\n.container {\n  width: 100%;\n}\r\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\r\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\r\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\r\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\r\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\r\n.absolute {\n  position: absolute;\n}\r\n.relative {\n  position: relative;\n}\r\n.sticky {\n  position: -webkit-sticky;\n  position: sticky;\n}\r\n.top-0 {\n  top: 0px;\n}\r\n.bottom-0 {\n  bottom: 0px;\n}\r\n.my-4 {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n}\r\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\r\n.mt-4 {\n  margin-top: 1rem;\n}\r\n.mt-8 {\n  margin-top: 2rem;\n}\r\n.mt-2 {\n  margin-top: 0.5rem;\n}\r\n.ml-1 {\n  margin-left: 0.25rem;\n}\r\n.mt-1 {\n  margin-top: 0.25rem;\n}\r\n.mr-2 {\n  margin-right: 0.5rem;\n}\r\n.mr-1 {\n  margin-right: 0.25rem;\n}\r\n.mt-6 {\n  margin-top: 1.5rem;\n}\r\n.mt-3 {\n  margin-top: 0.75rem;\n}\r\n.mt-10 {\n  margin-top: 2.5rem;\n}\r\n.ml-16 {\n  margin-left: 4rem;\n}\r\n.box-content {\n  box-sizing: content-box;\n}\r\n.block {\n  display: block;\n}\r\n.flex {\n  display: flex;\n}\r\n.inline-flex {\n  display: inline-flex;\n}\r\n.hidden {\n  display: none;\n}\r\n.h-6 {\n  height: 1.5rem;\n}\r\n.h-16 {\n  height: 4rem;\n}\r\n.h-0\\.5 {\n  height: 0.125rem;\n}\r\n.h-0 {\n  height: 0px;\n}\r\n.h-1 {\n  height: 0.25rem;\n}\r\n.h-4 {\n  height: 1rem;\n}\r\n.h-5 {\n  height: 1.25rem;\n}\r\n.h-auto {\n  height: auto;\n}\r\n.h-24 {\n  height: 6rem;\n}\r\n.h-12 {\n  height: 3rem;\n}\r\n.h-screen {\n  height: 100vh;\n}\r\n.w-3\\/4 {\n  width: 75%;\n}\r\n.w-6 {\n  width: 1.5rem;\n}\r\n.w-16 {\n  width: 4rem;\n}\r\n.w-full {\n  width: 100%;\n}\r\n.w-1 {\n  width: 0.25rem;\n}\r\n.w-4 {\n  width: 1rem;\n}\r\n.w-5 {\n  width: 1.25rem;\n}\r\n.w-24 {\n  width: 6rem;\n}\r\n.w-12 {\n  width: 3rem;\n}\r\n.max-w-7xl {\n  max-width: 80rem;\n}\r\n.max-w-2xl {\n  max-width: 42rem;\n}\r\n.grow {\n  flex-grow: 1;\n}\r\n.basis-1\\/4 {\n  flex-basis: 25%;\n}\r\n.basis-3\\/4 {\n  flex-basis: 75%;\n}\r\n.basis-2\\/4 {\n  flex-basis: 50%;\n}\r\n.scale-105 {\n  --tw-scale-x: 1.05;\n  --tw-scale-y: 1.05;\n  transform: var(--tw-transform);\n}\r\n@-webkit-keyframes spin {\n\n  to {\n    transform: rotate(360deg);\n  }\n}\r\n@keyframes spin {\n\n  to {\n    transform: rotate(360deg);\n  }\n}\r\n.animate-spin {\n  -webkit-animation: spin 1s linear infinite;\n          animation: spin 1s linear infinite;\n}\r\n.cursor-pointer {\n  cursor: pointer;\n}\r\n.list-disc {\n  list-style-type: disc;\n}\r\n.flex-col {\n  flex-direction: column;\n}\r\n.items-center {\n  align-items: center;\n}\r\n.justify-center {\n  justify-content: center;\n}\r\n.justify-between {\n  justify-content: space-between;\n}\r\n.space-y-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\r\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\r\n.space-x-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(2rem * var(--tw-space-x-reverse));\n  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\r\n.space-y-7 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));\n}\r\n.self-start {\n  align-self: flex-start;\n}\r\n.self-center {\n  align-self: center;\n}\r\n.overflow-auto {\n  overflow: auto;\n}\r\n.rounded-full {\n  border-radius: 9999px;\n}\r\n.rounded-lg {\n  border-radius: 0.5rem;\n}\r\n.rounded-md {\n  border-radius: 0.375rem;\n}\r\n.border {\n  border-width: 1px;\n}\r\n.border-indigo-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(99 102 241 / var(--tw-border-opacity));\n}\r\n.border-slate-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(226 232 240 / var(--tw-border-opacity));\n}\r\n.bg-indigo-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(79 70 229 / var(--tw-bg-opacity));\n}\r\n.bg-indigo-500\\/\\[\\.09\\] {\n  background-color: rgb(99 102 241 / .09);\n}\r\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\r\n.bg-slate-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(241 245 249 / var(--tw-bg-opacity));\n}\r\n.bg-slate-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(100 116 139 / var(--tw-bg-opacity));\n}\r\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\r\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\r\n.bg-\\[\\#fafafa\\] {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 250 250 / var(--tw-bg-opacity));\n}\r\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\r\n.p-2 {\n  padding: 0.5rem;\n}\r\n.p-8 {\n  padding: 2rem;\n}\r\n.p-3 {\n  padding: 0.75rem;\n}\r\n.p-4 {\n  padding: 1rem;\n}\r\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\r\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\r\n.py-16 {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\r\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\r\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\r\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\r\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\r\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\r\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\r\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\r\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\r\n.font-semibold {\n  font-weight: 600;\n}\r\n.font-medium {\n  font-weight: 500;\n}\r\n.font-bold {\n  font-weight: 700;\n}\r\n.font-extrabold {\n  font-weight: 800;\n}\r\n.uppercase {\n  text-transform: uppercase;\n}\r\n.leading-6 {\n  line-height: 1.5rem;\n}\r\n.leading-loose {\n  line-height: 2;\n}\r\n.leading-8 {\n  line-height: 2rem;\n}\r\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\r\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\r\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\r\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\r\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\r\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\r\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\r\n.text-slate-500 {\n  --tw-text-opacity: 1;\n  color: rgb(100 116 139 / var(--tw-text-opacity));\n}\r\n.text-green-600 {\n  --tw-text-opacity: 1;\n  color: rgb(22 163 74 / var(--tw-text-opacity));\n}\r\n.text-red-600 {\n  --tw-text-opacity: 1;\n  color: rgb(220 38 38 / var(--tw-text-opacity));\n}\r\n.text-slate-400 {\n  --tw-text-opacity: 1;\n  color: rgb(148 163 184 / var(--tw-text-opacity));\n}\r\n.text-indigo-500 {\n  --tw-text-opacity: 1;\n  color: rgb(99 102 241 / var(--tw-text-opacity));\n}\r\n.text-red-500 {\n  --tw-text-opacity: 1;\n  color: rgb(239 68 68 / var(--tw-text-opacity));\n}\r\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\r\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\r\n.opacity-25 {\n  opacity: 0.25;\n}\r\n.opacity-75 {\n  opacity: 0.75;\n}\r\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\r\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\r\n.outline-none {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\r\n.transition {\n  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\r\n.duration-150 {\n  transition-duration: 150ms;\n}\r\n.ease-in-out {\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n}\r\n.hover\\:shadow-lg:hover {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\r\n.focus\\:outline-none:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\r\n@media (min-width: 640px) {\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n}\r\n@media (min-width: 768px) {\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n}\r\n@media (min-width: 1024px) {\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\r\n";
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
@@ -1145,9 +1164,9 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https:/
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs ($id_7b587af2)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs ($id_f92d0614)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
 // --------------------
-const $id_a4d8ac8d = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_15ced2e2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/plugins/preload.server.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs");
@@ -1158,7 +1177,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1174,7 +1193,7 @@ __vite_ssr_import_1__.default,
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // --------------------
@@ -1197,7 +1216,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -1650,13 +1669,13 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/meta/runtime/components.mjs ($id_94744df3)
 // - /node_modules/nuxt3/dist/meta/runtime/composables.mjs ($id_ca9295be)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs ($id_4e81459e)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/meta.config.mjs ($id_87176ddc)
 // --------------------
 const $id_9fd5f35e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1667,7 +1686,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/meta.config.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
   __vite_ssr_import_2__.useMeta(__vite_ssr_import_4__.default.globalMeta);
@@ -1933,17 +1952,17 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 // Dependencies: 
 
 // --------------------
-const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/@vue/shared/dist/shared.cjs.js".') })
+const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/@vue/shared/dist/shared.cjs.js".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // Dependencies: 
 
 // --------------------
-const $id_4e81459e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_87176ddc = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
@@ -1951,7 +1970,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -1959,7 +1978,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/routes.mjs ($id_16d58972)
 // --------------------
 const $id_a4d6cb5b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1974,7 +1993,7 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/routes.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_5__.defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("NuxtNestedPage", __vite_ssr_import_2__.default);
@@ -2072,7 +2091,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
 }
 
 
@@ -2082,13 +2101,29 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /components/SideNavigationText.vue ($id_951f5202)
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// - /components/SearchWithMap.vue ($id_d2a53480)
+// - /components/Chip.vue ($id_62c084f5)
+// - /components/CircledDropdown.vue ($id_bef41eb3)
+// - /components/SpinnerLoading.vue ($id_16a65e4c)
+// - /components/Loading.vue ($id_cf8c0d44)
+// - /components/Divider.vue ($id_7bcb4c2d)
+// - /components/OtherPositionCard.vue ($id_80d96d5e)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/Button.vue ($id_97e817bf)
+// - /components/QualificationDescription.vue ($id_8d25d416)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /components/NotSelectedCompanyDetailState.vue ($id_f01a83ef)
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/server-renderer/index.js".') })
+const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/vue/server-renderer/index.js".') })
 
 
 // --------------------
@@ -2097,6 +2132,22 @@ const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /components/SideNavigationText.vue ($id_951f5202)
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// - /components/SearchWithMap.vue ($id_d2a53480)
+// - /components/Chip.vue ($id_62c084f5)
+// - /components/CircledDropdown.vue ($id_bef41eb3)
+// - /components/SpinnerLoading.vue ($id_16a65e4c)
+// - /components/Loading.vue ($id_cf8c0d44)
+// - /components/Divider.vue ($id_7bcb4c2d)
+// - /components/OtherPositionCard.vue ($id_80d96d5e)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/Button.vue ($id_97e817bf)
+// - /components/QualificationDescription.vue ($id_8d25d416)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /components/NotSelectedCompanyDetailState.vue ($id_f01a83ef)
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
@@ -2281,7 +2332,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
 }
 
 
@@ -2292,12 +2343,12 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs ($id_15c066b2)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/layouts.mjs ($id_a6dba7fb)
 // --------------------
 const $id_9b68c93f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/layouts.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
   props: {
@@ -2324,13 +2375,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_15c066b2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a6dba7fb = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {};
@@ -2338,26 +2389,26 @@ __vite_ssr_exports__.default = {};
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 // - /pages/features.vue ($id_cdc7ed81)
 // - /pages/index.vue ($id_cca58e97)
 // --------------------
-const $id_f8d13406 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_16d58972 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = [
   {
     "name": "features",
     "path": "/features",
-    "file": "/Users/vega/dev/nuxt/hello-tailwind-3/pages/features.vue",
+    "file": "A:/Learn/hireme-nuxt/pages/features.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/features.vue')
   },
   {
     "name": "index",
     "path": "/",
-    "file": "/Users/vega/dev/nuxt/hello-tailwind-3/pages/index.vue",
+    "file": "A:/Learn/hireme-nuxt/pages/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/index.vue')
   }
@@ -2368,7 +2419,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/features.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/routes.mjs ($id_16d58972)
 // Dependencies: 
 // - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2449,7 +2500,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/pages/features.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/pages/features.vue"]]);
 }
 
 
@@ -10574,13 +10625,204 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, value
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/routes.mjs ($id_16d58972)
 // Dependencies: 
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_cca58e97 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/SideNavigation.vue");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Content.vue");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/SideJobDetail.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_SideNavigation = __vite_ssr_import_0__.default
+  const _component_Content = __vite_ssr_import_1__.default
+  const _component_SideJobDetail = __vite_ssr_import_2__.default
+
+  _push(`<div${__vite_ssr_import_4__.ssrRenderAttrs(__vite_ssr_import_3__.mergeProps({ class: "bg-gray-300 flex" }, _attrs))}><aside class="basis-1/4 bg-white h-screen flex sticky top-0 bottom-0 flex-col space-y-7 p-8 shadow-lg">`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SideNavigation, null, null, _parent))
+  _push(`</aside><section class="basis-3/4 bg-[#fafafa] container mx-auto p-8">`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Content, null, null, _parent))
+  _push(`</section><aside class="basis-2/4 bg-white h-screen sticky top-0 bottom-0 overflow-auto">`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SideJobDetail, null, null, _parent))
+  _push(`</aside></div>`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/SideNavigation.vue
+// Parents: 
+// - /pages/index.vue ($id_cca58e97)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /composables/useAuthentication.ts ($id_378aa203)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/SideNavigationText.vue ($id_951f5202)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d59a6e25 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/composables/useAuthentication.ts");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/SideNavigationText.vue");
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+    const authentication = __vite_ssr_import_0__.useAuthentication()
+
+const __returned__ = { authentication }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_side_navigation_text = __vite_ssr_import_2__.default
+
+  _push(`<!--[--><img src="https://www.w3schools.com/w3images/man_smoke.jpg" class="rounded-full w-24 h-24" alt="">`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_side_navigation_text, null, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Your Profile`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createTextVNode("Your Profile")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_side_navigation_text, null, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Browse`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createTextVNode("Browse")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_side_navigation_text, null, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Community`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createTextVNode("Community")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_side_navigation_text, null, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Jobs`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createTextVNode("Jobs")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_side_navigation_text, null, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`More`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createTextVNode("More")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`<h3 class="font-bold text-lg text-red-500" style="${__vite_ssr_import_4__.ssrRenderStyle({"margin-top":"auto"})}"> Logout </h3><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SideNavigation.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/SideNavigation.vue"]]);
+}
+
+
+// --------------------
+// Request: /composables/useAuthentication.ts
+// Parents: 
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// Dependencies: 
+
+// --------------------
+const $id_378aa203 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const useAuthentication = () => {
+  return {
+    signIn: () => {
+    },
+    logout: () => {
+    }
+  };
+};
+Object.defineProperty(__vite_ssr_exports__, "useAuthentication", { enumerable: true, configurable: true, get(){ return useAuthentication }});
+;
+}
+
+
+// --------------------
+// Request: /components/SideNavigationText.vue
+// Parents: 
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_951f5202 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -10589,7 +10831,12 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "container mx-auto bg-gray-300 p-8" }, _attrs))}><h1 class="font-bold text-gray-600 text-lg">Hello, Tailwind 3!</h1></div>`)
+  _push(`<a${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+    class: "font-bold text-lg",
+    href: ""
+  }, _attrs))}>`)
+  __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
+  _push(`</a>`)
 }
 
 
@@ -10598,19 +10845,1160 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SideNavigationText.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/SideNavigationText.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Content.vue
+// Parents: 
+// - /pages/index.vue ($id_cca58e97)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /composables/useCompany.ts ($id_da124a57)
+// - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/SearchWithMap.vue ($id_d2a53480)
+// - /components/Chip.vue ($id_62c084f5)
+// - /components/CircledDropdown.vue ($id_bef41eb3)
+// - /components/Loading.vue ($id_cf8c0d44)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /types.ts ($id_6079afc9)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_fc90cf47 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/composables/useCompany.ts");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/SearchWithMap.vue");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Chip.vue");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/CircledDropdown.vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Loading.vue");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/JobCard.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/types.ts");
+
+
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+const {
+  filteredItems,
+  fetchJobs,
+  jobs,
+  jobFilters,
+  filteredItemsCount,
+  selectedCompany,
+  onSelectCompany,
+} = __vite_ssr_import_0__.useCompany();
+const showLoadMoreLoading = __vite_ssr_import_1__.useState("showLoadMoreLoading", () => false);
+
+const onReachBottom = (listener) => {
+  window.onscroll = () => {
+    let bottomOfWindow =
+      document.documentElement.scrollTop + window.innerHeight ===
+      document.documentElement.offsetHeight;
+    if (bottomOfWindow && !showLoadMoreLoading.value) {
+      console.log("Load more...");
+      listener();
+    }
+  };
+};
+
+__vite_ssr_import_2__.onMounted(async () => {
+  //initial
+  try {
+    jobs.value.loading = true;
+    await fetchJobs();
+    jobs.value.loading = false;
+  } catch (error) {
+    jobs.value.loading = false;
+  }
+
+  onReachBottom(async () => {
+    showLoadMoreLoading.value = true;
+    await fetchJobs();
+    showLoadMoreLoading.value = false;
+  });
+});
+
+const __returned__ = { filteredItems, fetchJobs, jobs, jobFilters, filteredItemsCount, selectedCompany, onSelectCompany, showLoadMoreLoading, onReachBottom, ApplyState: __vite_ssr_import_8__.ApplyState }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_SearchWithMap = __vite_ssr_import_3__.default
+  const _component_Chip = __vite_ssr_import_4__.default
+  const _component_CircledDropdown = __vite_ssr_import_5__.default
+  const _component_loading = __vite_ssr_import_6__.default
+  const _component_JobCard = __vite_ssr_import_7__.default
+
+  _push(`<!--[-->`)
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_SearchWithMap, null, null, _parent))
+  _push(`<div class="flex justify-between mt-4"><div class="flex space-x-2"><!--[-->`)
+  __vite_ssr_import_10__.ssrRenderList($setup.jobFilters, (item) => {
+    _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Chip, {
+      key: item.title,
+      title: item.title,
+      selected: item.selected
+    }, null, _parent))
+  })
+  _push(`<!--]--></div>`)
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_CircledDropdown, null, null, _parent))
+  _push(`</div><div class="mt-8 flex justify-between"><span class="font-bold">Showing <span class="text-indigo-600"> Full Time jobs</span> (${__vite_ssr_import_10__.ssrInterpolate($setup.filteredItemsCount)})</span><span class="font-bold text-black">Job Alerts</span></div><div class="mt-4 flex flex-col space-y-4">`)
+  if ($setup.jobs.loading) {
+    _push(__vite_ssr_import_10__.ssrRenderComponent(_component_loading, { class: "self-center" }, null, _parent))
+  } else {
+    _push(`<!---->`)
+  }
+  _push(`<!--[-->`)
+  __vite_ssr_import_10__.ssrRenderList($setup.filteredItems, (item, index) => {
+    _push(__vite_ssr_import_10__.ssrRenderComponent(_component_JobCard, {
+      key: index,
+      applyState: item.applyState,
+      company: item.company,
+      selected: item.id == $setup.selectedCompany?.id,
+      companyLogo: item.companyLogo,
+      location: item.location,
+      jobDesc: item.jobDesc,
+      createdAt: item.createdAt,
+      appliedCount: item.appliedCount
+    }, null, _parent))
+  })
+  _push(`<!--]--></div>`)
+  if ($setup.showLoadMoreLoading) {
+    _push(`<div${__vite_ssr_import_10__.ssrRenderAttrs(__vite_ssr_import_9__.mergeProps({ class: "flex justify-center align-center mt-4" }, _attrs))}>`)
+    _push(__vite_ssr_import_10__.ssrRenderComponent(_component_loading, null, null, _parent))
+    _push(`</div>`)
+  } else {
+    _push(`<!---->`)
+  }
+  _push(`<!--]-->`)
+}
+
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_11__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Content.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_12__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/Content.vue"]]);
+}
+
+
+// --------------------
+// Request: /composables/useCompany.ts
+// Parents: 
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/SearchWithMap.vue ($id_d2a53480)
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// Dependencies: 
+// - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /types.ts ($id_6079afc9)
+// --------------------
+const $id_da124a57 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/types.ts");
+
+const useCompany = () => {
+  const searchQuery = __vite_ssr_import_0__.useState("searchQuery", () => "");
+  const selectedCompany = __vite_ssr_import_0__.useState("selectedCompany", () => null);
+  const jobFilters = __vite_ssr_import_0__.useState("jobsFilter", () => [
+    {
+      title: "Developer",
+      selected: false
+    },
+    {
+      title: "Interaction Design",
+      selected: false
+    },
+    {
+      title: "Product Design",
+      selected: false
+    }
+  ]);
+  const jobs = __vite_ssr_import_0__.useState("jobs", () => ({
+    items: [],
+    loading: false
+  }));
+  const filteredItems = __vite_ssr_import_1__.computed(() => {
+    const anySelectedJobFilter = jobFilters.value.some((e) => e.selected);
+    let jobsVal = jobs.value.items;
+    if (anySelectedJobFilter) {
+      jobsVal = jobsVal.filter((item) => {
+        const selectedJobFilters = jobFilters.value.filter((e) => e.selected).map((e) => e.title.toLowerCase());
+        return selectedJobFilters.includes(item.jobDesc.toLowerCase());
+      });
+    }
+    if (searchQuery.value) {
+      jobsVal = jobsVal.filter((item) => {
+        let searchQ = searchQuery.value;
+        return item.company.toLowerCase().search(RegExp(searchQ, "i")) > -1;
+      });
+    }
+    return jobsVal;
+  });
+  const randomEnumValue = (enumeration) => {
+    const values = Object.keys(enumeration);
+    const enumKey = values[Math.floor(Math.random() * values.length)];
+    return enumeration[enumKey];
+  };
+  return {
+    selectedCompany,
+    applyJob: () => {
+      selectedCompany.value.applyState = __vite_ssr_import_2__.ApplyState.Applying;
+      const index = jobs.value.items.findIndex((item) => item.id === selectedCompany.value.id);
+      jobs.value.items[index].applyState = __vite_ssr_import_2__.ApplyState.Applying;
+      setTimeout(() => {
+        const randomApplyResult = randomEnumValue(__vite_ssr_import_2__.ApplyState);
+        console.log("Test: ", randomApplyResult);
+        selectedCompany.value.applyState = randomApplyResult;
+        jobs.value.items[index].applyState = randomApplyResult;
+      }, 500);
+    },
+    onSelectCompany: (item) => {
+      if (selectedCompany.value?.id == item.id) {
+        selectedCompany.value = null;
+      } else {
+        selectedCompany.value = item;
+      }
+    },
+    jobs,
+    searchQuery,
+    jobFilters,
+    fetchJobs() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          jobs.value.items = [
+            ...jobs.value.items,
+            {
+              id: 1,
+              company: "Airbnb",
+              companyLogo: "https://blog.logomyway.com/wp-content/uploads/2020/03/arbnb-logo.jpg",
+              jobDesc: "Visual Designer",
+              createdAt: "3 days ago",
+              appliedCount: 6,
+              location: "Beijing, China",
+              applyState: __vite_ssr_import_2__.ApplyState.Idle
+            },
+            {
+              id: 2,
+              company: "Google",
+              companyLogo: "https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+              jobDesc: "UX Design Lead",
+              createdAt: "3 days ago",
+              appliedCount: 6,
+              location: "Singapore",
+              applyState: __vite_ssr_import_2__.ApplyState.Idle
+            },
+            {
+              id: 3,
+              company: "Spotify",
+              companyLogo: "https://www.readspeaker.com/wp-content/uploads/logo-spotify.png",
+              jobDesc: "Senior Product Designer",
+              createdAt: "3 days ago",
+              appliedCount: 6,
+              location: "New York, USA",
+              applyState: __vite_ssr_import_2__.ApplyState.Idle
+            },
+            {
+              id: 4,
+              company: "IDEO",
+              companyLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d1/IDEO_logo_2.png",
+              jobDesc: "Developer",
+              createdAt: "3 days ago",
+              appliedCount: 6,
+              location: "London, UK",
+              applyState: __vite_ssr_import_2__.ApplyState.Idle
+            },
+            {
+              id: 5,
+              company: "Twitch",
+              companyLogo: "https://www.freepnglogos.com/uploads/twitch-app-logo-png-3.png",
+              jobDesc: "UI Designer",
+              createdAt: "3 days ago",
+              appliedCount: 6,
+              location: "Queensland, AUS",
+              applyState: __vite_ssr_import_2__.ApplyState.Idle
+            }
+          ];
+          resolve(jobs.value.items);
+        }, 1e3);
+      });
+    },
+    filteredItems,
+    filteredItemsCount: __vite_ssr_import_1__.computed(() => {
+      return filteredItems.value.length;
+    })
+  };
+};
+Object.defineProperty(__vite_ssr_exports__, "useCompany", { enumerable: true, configurable: true, get(){ return useCompany }});
+;
+}
+
+
+// --------------------
+// Request: /types.ts
+// Parents: 
+// - /composables/useCompany.ts ($id_da124a57)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// Dependencies: 
+
+// --------------------
+const $id_6079afc9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+var ApplyState;
+Object.defineProperty(__vite_ssr_exports__, "ApplyState", { enumerable: true, configurable: true, get(){ return ApplyState }});
+(function(ApplyState2) {
+  ApplyState2[ApplyState2["Review"] = 0] = "Review";
+  ApplyState2[ApplyState2["Applying"] = 1] = "Applying";
+  ApplyState2[ApplyState2["InvitedToInterview"] = 2] = "InvitedToInterview";
+  ApplyState2[ApplyState2["Rejected"] = 3] = "Rejected";
+  ApplyState2[ApplyState2["Idle"] = 4] = "Idle";
+})(ApplyState || (ApplyState = {}));
+;
+}
+
+
+// --------------------
+// Request: /components/SearchWithMap.vue
+// Parents: 
+// - /components/Content.vue ($id_fc90cf47)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /composables/useCompany.ts ($id_da124a57)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d2a53480 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/composables/useCompany.ts");
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+const { searchQuery } = __vite_ssr_import_0__.useCompany();
+
+const __returned__ = { searchQuery }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${
+    __vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "rounded-full flex bg-white p-4 box-content space-x-4 shadow-sm" }, _attrs))
+  }><div class="flex space-x-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg><span class="text-indigo-500 font-semibold">Anywhere</span></div><div class="h-auto border"></div><input type="text"${
+    __vite_ssr_import_2__.ssrRenderAttr("value", $setup.searchQuery)
+  } class="outline-none focus:outline-none grow" placeholder="Search by Title, Company or Keywords..."></div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SearchWithMap.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/SearchWithMap.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Chip.vue
+// Parents: 
+// - /components/Content.vue ($id_fc90cf47)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_62c084f5 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_main = {
+  props: {
+  title: String,
+  selected: Boolean,
+},
+  setup(__props, { expose }) {
+  expose();
+
+const props = __props
+
+
+const selectedStyle = __vite_ssr_import_0__.computed(() =>
+  props.selected
+    ? "border-indigo-500 bg-indigo-500/[.09]"
+    : "border-stale-50 bg-white"
+);
+const selectedStyleText = __vite_ssr_import_0__.computed(() =>
+  !props.selected ? "text-gray-600" : "text-indigo-600"
+);
+
+const __returned__ = { props, selectedStyle, selectedStyleText }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${
+    __vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({
+      class: [$setup.selectedStyle, "cursor-pointer py-2 px-4 rounded-full border"]
+    }, _attrs))
+  }><span class="${
+    __vite_ssr_import_2__.ssrRenderClass([$setup.selectedStyleText, "font-medium"])
+  }">${
+    __vite_ssr_import_2__.ssrInterpolate($props.title)
+  }</span></div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Chip.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/Chip.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/CircledDropdown.vue
+// Parents: 
+// - /components/Content.vue ($id_fc90cf47)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_bef41eb3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "rounded-full p-2 bg-white border-stale-200 border cursor-pointer" }, _attrs))}><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-stale-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/CircledDropdown.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/CircledDropdown.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Loading.vue
+// Parents: 
+// - /components/Content.vue ($id_fc90cf47)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /components/SpinnerLoading.vue ($id_16a65e4c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cf8c0d44 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/SpinnerLoading.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_spinner_loading = __vite_ssr_import_0__.default
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "inline-flex items-center px-4 py-2 font-semibold leading-6 text-md text-slate-400 transition ease-in-out duration-150" }, _attrs))}>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_spinner_loading, { classes: 'w-4 h-4 mr-2' }, null, _parent))
+  _push(` Loading... </div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Loading.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/Loading.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/SpinnerLoading.vue
+// Parents: 
+// - /components/Loading.vue ($id_cf8c0d44)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_16a65e4c = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  props: {
+  classes: []
+},
+  setup(__props, { expose }) {
+  expose();
+
+const props = __props
+
+
+
+const __returned__ = { props }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<svg${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+    class: [$props.classes, "animate-spin text-slate-400"],
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, _attrs))}><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SpinnerLoading.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/SpinnerLoading.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/JobCard.vue
+// Parents: 
+// - /components/Content.vue ($id_fc90cf47)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/SpinnerLoading.vue ($id_16a65e4c)
+// - /components/Divider.vue ($id_7bcb4c2d)
+// - /components/OtherPositionCard.vue ($id_80d96d5e)
+// - /types.ts ($id_6079afc9)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d9c09675 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/SpinnerLoading.vue");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Divider.vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/OtherPositionCard.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/types.ts");
+
+
+const _sfc_main = {
+  props: {
+  company: String,
+  companyLogo: String,
+  location: String,
+  jobDesc: String,
+  selected: Boolean,
+  createdAt: String,
+  appliedCount: Number,
+  applyState: __vite_ssr_import_4__.ApplyState,
+  otherPositions: [],
+},
+  setup(__props, { expose }) {
+  expose();
+
+const props = __props
+
+
+const selectedStyle = __vite_ssr_import_0__.computed(() =>
+  props.selected ? "shadow-lg scale-105 transition ease-in-out" : "shadow-sm"
+);
+
+const __returned__ = { props, selectedStyle, ApplyState: __vite_ssr_import_4__.ApplyState }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_spinner_loading = __vite_ssr_import_1__.default
+  const _component_Divider = __vite_ssr_import_2__.default
+  const _component_OtherPositionCard = __vite_ssr_import_3__.default
+
+  _push(`<div${
+    __vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({
+      class: [$setup.selectedStyle, "rounded-lg bg-white p-8 hover:shadow-lg cursor-pointer"]
+    }, _attrs))
+  }><div class="flex justify-between items-center"><div class="flex space-x-8"><img class="w-16 h-16 object-cover"${
+    __vite_ssr_import_6__.ssrRenderAttr("src", $props.companyLogo)
+  }${
+    __vite_ssr_import_6__.ssrRenderAttr("alt", $props.company)
+  }><div><h1 class="font-bold text-black text-xl">${
+    __vite_ssr_import_6__.ssrInterpolate($props.company)
+  }</h1><h1 class="mt-1 text-slate-500 text-md">${
+    __vite_ssr_import_6__.ssrInterpolate($props.jobDesc)
+  }</h1><div class="flex items-center space-x-2 text-slate-500 text-sm"><span>${
+    __vite_ssr_import_6__.ssrInterpolate($props.createdAt)
+  }</span><div class="w-1 h-1 rounded-full bg-slate-500"></div><span>${
+    __vite_ssr_import_6__.ssrInterpolate($props.appliedCount)
+  } applied</span></div></div></div><div class="flex flex-col">`)
+  if ($props.applyState == $setup.ApplyState.Applying) {
+    _push(`<div class="flex items-center text-indigo-600">`)
+    _push(__vite_ssr_import_6__.ssrRenderComponent(_component_spinner_loading, { classes: 'w-4 h-4 mr-2' }, null, _parent))
+    _push(`<span class="text-sm font-bold"> Applying.. </span></div>`)
+  } else if ($props.applyState == $setup.ApplyState.Review) {
+    _push(`<div class="flex items-center text-black"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span class="text-sm font-bold"> Review </span></div>`)
+  } else if ($props.applyState == $setup.ApplyState.InvitedToInterview) {
+    _push(`<div class="flex items-center text-green-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span class="text-sm font-bold"> Let&#39;s interview! </span></div>`)
+  } else if ($props.applyState == $setup.ApplyState.Rejected) {
+    _push(`<div class="flex items-center text-red-600"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span class="text-sm font-bold"> You&#39;ve been rejected </span></div>`)
+  } else {
+    _push(`<!---->`)
+  }
+  _push(`<span class="text-slate-500">${__vite_ssr_import_6__.ssrInterpolate($props.location)}</span></div></div>`)
+  _push(__vite_ssr_import_6__.ssrRenderComponent(_component_Divider, { class: "mt-8" }, null, _parent))
+  _push(`<span class="text-sm font-medium mt-6 block text-slate-400">Other positions at ${__vite_ssr_import_6__.ssrInterpolate($props.company)}</span><div class="flex space-x-4 mt-3"><!--[-->`)
+  __vite_ssr_import_6__.ssrRenderList(3, (i) => {
+    _push(__vite_ssr_import_6__.ssrRenderComponent(_component_OtherPositionCard, { key: i }, null, _parent))
+  })
+  _push(`<!--]--></div></div>`)
+}
+
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_7__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/JobCard.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/JobCard.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Divider.vue
+// Parents: 
+// - /components/JobCard.vue ($id_d9c09675)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_7bcb4c2d = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full h-0.5 bg-slate-100" }, _attrs))}></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Divider.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/Divider.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/OtherPositionCard.vue
+// Parents: 
+// - /components/JobCard.vue ($id_d9c09675)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_80d96d5e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "p-3 flex flex-col border rounded-lg border-slate-200" }, _attrs))}><span class="text-lg text-black font-medium">Visual Designer</span><span class="text-sm text-gray-400 font-semibold">Singapore</span></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/OtherPositionCard.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/OtherPositionCard.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/SideJobDetail.vue
+// Parents: 
+// - /pages/index.vue ($id_cca58e97)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /composables/useCompany.ts ($id_da124a57)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /components/NotSelectedCompanyDetailState.vue ($id_f01a83ef)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_14cdb9fb = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/composables/useCompany.ts");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/CompanyDetail.vue");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/NotSelectedCompanyDetailState.vue");
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+const { selectedCompany } = __vite_ssr_import_0__.useCompany();
+
+const __returned__ = { selectedCompany }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_CompanyDetail = __vite_ssr_import_1__.default
+  const _component_NotSelectedCompanyDetailState = __vite_ssr_import_2__.default
+
+  _push(`<div${__vite_ssr_import_4__.ssrRenderAttrs(__vite_ssr_import_3__.mergeProps({ class: "py-16 px-8" }, _attrs))}>`)
+  if ($setup.selectedCompany) {
+    _push(__vite_ssr_import_4__.ssrRenderComponent(_component_CompanyDetail, null, null, _parent))
+  } else {
+    _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NotSelectedCompanyDetailState, { class: "self-center" }, null, _parent))
+  }
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SideJobDetail.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/SideJobDetail.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/CompanyDetail.vue
+// Parents: 
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /composables/useCompany.ts ($id_da124a57)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/Button.vue ($id_97e817bf)
+// - /components/Divider.vue ($id_7bcb4c2d)
+// - /components/QualificationDescription.vue ($id_8d25d416)
+// - /types.ts ($id_6079afc9)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_df4b06e2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/composables/useCompany.ts");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Button.vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Divider.vue");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/QualificationDescription.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/types.ts");
+
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+const { selectedCompany, applyJob } = __vite_ssr_import_0__.useCompany();
+const isApplying = __vite_ssr_import_1__.computed(() => selectedCompany.value.applyState == __vite_ssr_import_5__.ApplyState.Applying)
+
+
+const __returned__ = { selectedCompany, applyJob, isApplying, ApplyState: __vite_ssr_import_5__.ApplyState }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_Button = __vite_ssr_import_2__.default
+  const _component_Divider = __vite_ssr_import_3__.default
+  const _component_QualificationDescription = __vite_ssr_import_4__.default
+
+  _push(`<div${
+    __vite_ssr_import_7__.ssrRenderAttrs(__vite_ssr_import_6__.mergeProps({ class: "flex flex-col items-center" }, _attrs))
+  }><img class="w-16 h-16 object-cover"${
+    __vite_ssr_import_7__.ssrRenderAttr("src", $setup.selectedCompany?.companyLogo)
+  } alt=""><h1 class="font-bold text-2xl mt-8">${
+    __vite_ssr_import_7__.ssrInterpolate($setup.selectedCompany?.jobDesc)
+  }</h1><h1 class="font-medium mt-2 text-gray-400">${
+    __vite_ssr_import_7__.ssrInterpolate($setup.selectedCompany?.location)
+  }</h1>`)
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_Button, {
+    loading: $setup.isApplying,
+    class: "w-3/4"
+  }, {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`${__vite_ssr_import_7__.ssrInterpolate($setup.isApplying ? "Applying..." : "Apply")}`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createTextVNode(__vite_ssr_import_6__.toDisplayString($setup.isApplying ? "Applying..." : "Apply"), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_Divider, { class: "mt-8" }, null, _parent))
+  _push(`<div class="mt-8 self-start my-4"><span class="text-black font-semibold text-lg">Minimum Qualifications: </span><div class="ml-1 mt-2 flex flex-col space-y-2 text-sm">`)
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_QualificationDescription, null, {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Excellent JavaScript/HTML/CSS skills and good sense for software architecture`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createTextVNode("Excellent JavaScript/HTML/CSS skills and good sense for software architecture")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_QualificationDescription, null, {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`2+ years of industry experience in software development including hands-on product design, team programming, and experience building and shipping software products`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createTextVNode("2+ years of industry experience in software development including hands-on product design, team programming, and experience building and shipping software products")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_QualificationDescription, null, {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Strong passion for detailed, innovative, and empathic design`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createTextVNode("Strong passion for detailed, innovative, and empathic design")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_QualificationDescription, null, {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Excellent verbal and written communication skills`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createTextVNode("Excellent verbal and written communication skills")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_QualificationDescription, null, {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Ability to work in a fast-paced team environment with frequent releases and tight schedules`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createTextVNode("Ability to work in a fast-paced team environment with frequent releases and tight schedules")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</div></div>`)
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_Divider, { class: "mt-8" }, null, _parent))
+  _push(`<h1 class="font-bold text-2xl mt-8 self-start">About Company</h1></div>`)
+}
+
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_8__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/CompanyDetail.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/CompanyDetail.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button.vue
+// Parents: 
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_97e817bf = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_main = {
+  props: {
+  loading: Boolean,
+},
+  setup(__props, { expose }) {
+  expose();
+
+const props = __props
+
+
+const style = __vite_ssr_import_0__.computed(() => (!props.loading ? "bg-indigo-600" : "bg-indigo-600 opacity-25"));
+
+const __returned__ = { props, style }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<button${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({
+    class: [$setup.style, "font-semibold mt-4 focus:outline-none rounded-full py-2 px-4 bg-indigo-600 text-white w-3/4"]
+  }, _attrs))}>`)
+  __vite_ssr_import_2__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
+  _push(`</button>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/Button.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/QualificationDescription.vue
+// Parents: 
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_8d25d416 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<li${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "list-disc text-slate-500 leading-loose" }, _attrs))}>`)
+  __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
+  _push(`</li>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/QualificationDescription.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/QualificationDescription.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/NotSelectedCompanyDetailState.vue
+// Parents: 
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs ($id_8ea78356)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_f01a83ef = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<h1${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "text-2xl font-bold text-black" }, _attrs))}>Select company first..</h1>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/NotSelectedCompanyDetailState.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/components/NotSelectedCompanyDetailState.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
 // Dependencies: 
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
 // --------------------
@@ -10634,22 +12022,53 @@ __vite_ssr_exports__.default = () => {}
 // Dependencies: 
 
 // --------------------
-const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/ohmyfetch/dist/index.mjs".') })
+const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///A:/Learn/hireme-nuxt/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "A:/Learn/hireme-nuxt/node_modules/ohmyfetch/dist/index.mjs".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs ($id_15ced2e2)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/Button.vue ($id_97e817bf)
+// - /components/Chip.vue ($id_62c084f5)
+// - /components/CircledDropdown.vue ($id_bef41eb3)
+// - /components/CompanyDetail.vue ($id_df4b06e2)
+// - /components/Content.vue ($id_fc90cf47)
+// - /components/Divider.vue ($id_7bcb4c2d)
+// - /components/JobCard.vue ($id_d9c09675)
+// - /components/Loading.vue ($id_cf8c0d44)
+// - /components/NotSelectedCompanyDetailState.vue ($id_f01a83ef)
+// - /components/OtherPositionCard.vue ($id_80d96d5e)
+// - /components/QualificationDescription.vue ($id_8d25d416)
+// - /components/SearchWithMap.vue ($id_d2a53480)
+// - /components/SideJobDetail.vue ($id_14cdb9fb)
+// - /components/SideNavigation.vue ($id_d59a6e25)
+// - /components/SideNavigationText.vue ($id_951f5202)
+// - /components/SpinnerLoading.vue ($id_16a65e4c)
 // --------------------
-const $id_f92d0614 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_8ea78356 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
 const components = {
-
+  'Button': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Button.vue').then(c => c.default || c)),
+  'Chip': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Chip.vue').then(c => c.default || c)),
+  'CircledDropdown': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/CircledDropdown.vue').then(c => c.default || c)),
+  'CompanyDetail': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/CompanyDetail.vue').then(c => c.default || c)),
+  'Content': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Content.vue').then(c => c.default || c)),
+  'Divider': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Divider.vue').then(c => c.default || c)),
+  'JobCard': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/JobCard.vue').then(c => c.default || c)),
+  'Loading': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Loading.vue').then(c => c.default || c)),
+  'NotSelectedCompanyDetailState': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/NotSelectedCompanyDetailState.vue').then(c => c.default || c)),
+  'OtherPositionCard': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/OtherPositionCard.vue').then(c => c.default || c)),
+  'QualificationDescription': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/QualificationDescription.vue').then(c => c.default || c)),
+  'SearchWithMap': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/SearchWithMap.vue').then(c => c.default || c)),
+  'SideJobDetail': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/SideJobDetail.vue').then(c => c.default || c)),
+  'SideNavigation': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/SideNavigation.vue').then(c => c.default || c)),
+  'SideNavigationText': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/SideNavigationText.vue').then(c => c.default || c)),
+  'SpinnerLoading': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/SpinnerLoading.vue').then(c => c.default || c))
 }
 
 __vite_ssr_exports__.default = function (nuxtApp) {
@@ -10663,13 +12082,13 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/root-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // --------------------
-const $id_c59bdb44 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_55e1027a = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -10679,7 +12098,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs ($id_c59bdb44)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/root-component.mjs ($id_55e1027a)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -10730,18 +12149,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs
+// Request: /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/app-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // --------------------
-const $id_3ee0f2b0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_608d1dce = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -10751,7 +12170,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs ($id_3ee0f2b0)
+// - /@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/app-component.mjs ($id_608d1dce)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -10782,12 +12201,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
- '/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry': $id_1cacbff3,
+ 'A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/app/entry': $id_de435d9d,
  '/node_modules/nuxt3/dist/app/bootstrap.mjs': $id_fef466a9,
  '/node_modules/vue/dist/vue.cjs.js': $id_60f0615f,
  '/node_modules/nuxt3/dist/app/index.mjs': $id_d8c2af0f,
@@ -10808,9 +12227,9 @@ const __modules__ = {
  '/node_modules/h3/dist/index.mjs': $id_57d7ded6,
  '/node_modules/destr/dist/index.mjs': $id_03d15ecd,
  '/node_modules/nuxt3/dist/app/composables/ssr.mjs': $id_4d0dc923,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs': $id_e56fd3d4,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/css.mjs': $id_a01276db,
  '/assets/css/tailwind.css': $id_f75548e1,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs': $id_a4d8ac8d,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/plugins/server.mjs': $id_15ced2e2,
  '/node_modules/nuxt3/dist/app/plugins/preload.server.mjs': $id_b9f3c557,
  '/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs': $id_cbe5172d,
  '/node_modules/@vueuse/head/dist/index.mjs': $id_c032264e,
@@ -10818,15 +12237,15 @@ const __modules__ = {
  '/node_modules/nuxt3/dist/meta/runtime/components.mjs': $id_94744df3,
  '/node_modules/nuxt3/dist/meta/runtime/composables.mjs': $id_ca9295be,
  '/node_modules/@vue/shared/dist/shared.cjs.js': $id_852b06a2,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs': $id_4e81459e,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/meta.config.mjs': $id_87176ddc,
  '/node_modules/nuxt3/dist/pages/runtime/router.mjs': $id_a4d6cb5b,
  '/node_modules/nuxt3/dist/pages/runtime/nested-page.vue': $id_c268603a,
  '/node_modules/vue/server-renderer/index.js': $id_b215fa1c,
  '/@id/plugin-vue:export-helper': $id_bbb863c1,
  '/node_modules/nuxt3/dist/pages/runtime/page.vue': $id_10628d40,
  '/node_modules/nuxt3/dist/pages/runtime/layout.mjs': $id_9b68c93f,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs': $id_15c066b2,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs': $id_f8d13406,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/layouts.mjs': $id_a6dba7fb,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/routes.mjs': $id_16d58972,
  '/pages/features.vue': $id_cdc7ed81,
  '/node_modules/@heroicons/vue/outline/esm/index.js': $id_d0ea4942,
  '/node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js': $id_8e47f017,
@@ -11060,12 +12479,31 @@ const __modules__ = {
  '/node_modules/@heroicons/vue/outline/esm/ZoomInIcon.js': $id_d44846b1,
  '/node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js': $id_59b10e81,
  '/pages/index.vue': $id_cca58e97,
+ '/components/SideNavigation.vue': $id_d59a6e25,
+ '/composables/useAuthentication.ts': $id_378aa203,
+ '/components/SideNavigationText.vue': $id_951f5202,
+ '/components/Content.vue': $id_fc90cf47,
+ '/composables/useCompany.ts': $id_da124a57,
+ '/types.ts': $id_6079afc9,
+ '/components/SearchWithMap.vue': $id_d2a53480,
+ '/components/Chip.vue': $id_62c084f5,
+ '/components/CircledDropdown.vue': $id_bef41eb3,
+ '/components/Loading.vue': $id_cf8c0d44,
+ '/components/SpinnerLoading.vue': $id_16a65e4c,
+ '/components/JobCard.vue': $id_d9c09675,
+ '/components/Divider.vue': $id_7bcb4c2d,
+ '/components/OtherPositionCard.vue': $id_80d96d5e,
+ '/components/SideJobDetail.vue': $id_14cdb9fb,
+ '/components/CompanyDetail.vue': $id_df4b06e2,
+ '/components/Button.vue': $id_97e817bf,
+ '/components/QualificationDescription.vue': $id_8d25d416,
+ '/components/NotSelectedCompanyDetailState.vue': $id_f01a83ef,
  '/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs': $id_7b587af2,
  '/node_modules/ohmyfetch/dist/index.mjs': $id_780217c4,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs': $id_f92d0614,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs': $id_c59bdb44,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/components.mjs': $id_8ea78356,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/root-component.mjs': $id_55e1027a,
  '/node_modules/nuxt3/dist/app/components/nuxt-root.vue': $id_f8564e04,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs': $id_3ee0f2b0,
+ '/@id/__x00__virtual:A:/Learn/hireme-nuxt/.nuxt/app-component.mjs': $id_608d1dce,
  '/node_modules/nuxt3/dist/pages/runtime/app.vue': $id_0851ff57
 }
 
@@ -11143,4 +12581,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__('/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry')
+export default await __ssrLoadModule__('A:/Learn/hireme-nuxt/node_modules/nuxt3/dist/app/entry')

@@ -74,6 +74,8 @@ declare global {
   const useCssVars: typeof import('vue')['useCssVars']
   const useSlots: typeof import('vue')['useSlots']
   const useTransitionState: typeof import('vue')['useTransitionState']
+  const useAuthentication: typeof import('../composables/useAuthentication')['useAuthentication']
+  const useCompany: typeof import('../composables/useCompany')['useCompany']
   const useRouter: typeof import('../node_modules/nuxt3/dist/pages/runtime/composables')['useRouter']
   const useRoute: typeof import('../node_modules/nuxt3/dist/pages/runtime/composables')['useRoute']
 }
